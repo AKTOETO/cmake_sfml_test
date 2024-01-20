@@ -6,7 +6,7 @@ cmake --build build
 ```
 Or just start **start.sh**.
 
-Before exececute this:
+Before execute this:
 ```bash
 chmod +x start.sh
 ```
