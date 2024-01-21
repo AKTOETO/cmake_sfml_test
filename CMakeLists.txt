@@ -6,10 +6,8 @@ project(main_cmakefile LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-#including all external folders
-#add_subdirectory(src/external)
-
-#message(STATUS "added src/external")
+# all libs should be staticly linked
+set(BUILD_SHARED_LIBS OFF)
 
 #including all internal folders
 add_subdirectory(src/internal)

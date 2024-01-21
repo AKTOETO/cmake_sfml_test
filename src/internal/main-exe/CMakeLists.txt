@@ -2,7 +2,7 @@
 project("test-exe")
 
 # setting CMAKE_RUNTIME_OUTPUT_DIRECTORY
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/${PROJECT_NAME})
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/${CMAKE_BUILD_TYPE})
 
 # adding main executable file
 add_executable(${PROJECT_NAME} main.cpp)
